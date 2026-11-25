@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Строй Сервис — мебель по вашим размерам</title>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a class="logo" href="index.html">
+      <img src="icons/logot.svg" alt="Строй Сервис" height="46" width="46">
+      <div class="logo-text">Строй<br>Сервис</div>
+    </a>
+    <nav>
+      <a href="#about">О компании</a>
+      <a href="requests.html">Заявки на материалы</a>
+      <a href="#works">Наши работы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container hero">
+  <div class="hero-img-wrap">
+    <img src="img/1.png" alt="Производство мебели по индивидуальным размерам">
+    <div class="hero-label">
+      Производство<br>
+      мебели по вашим<br>
+      размерам
+    </div>
+  </div>
+  <div class="hero-actions">
+    <button onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'})">Отправь свой проект на расчет</button>
+    <button onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'})">Связаться с нами для консультации</button>
+  </div>
+</div>
+
+<section class="container models-section" id="about">
+  <h2>Популярные модели</h2>
+  <div class="models-grid">
+    <div class="card">
+      <img src="img/2.png" alt="Шкаф серый глянец">
+      <b class="card-price">от 45 000 ₽</b>
+      <p class="card-name">Шкаф Н-210. Фасад — глянец</p>
+    </div>
+    <div class="card">
+      <img src="img/3.png" alt="Шкаф с ящиками">
+      <b class="card-price">от 52 000 ₽</b>
+      <p class="card-name">Шкаф Н-185. С ящиками</p>
+    </div>
+    <div class="card">
+      <img src="img/5.png" alt="Шкаф в прихожей">
+      <b class="card-price">от 38 000 ₽</b>
+      <p class="card-name">Шкаф в прихожую П-120</p>
+    </div>
+    <div class="card">
+      <img src="img/7.png" alt="Шкаф антрацит">
+      <b class="card-price">от 48 000 ₽</b>
+      <p class="card-name">Шкаф Н-240. Антрацит</p>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="banner">
+    <div class="banner-text">
+      <h1>Индивидуальный подход</h1>
+      <p>Быстрые расчеты, качественный сервис</p>
+    </div>
+  </div>
+</section>
+
+<section class="works-section" id="works">
+  <h2>Наши работы</h2>
+  <div class="container works-grid">
+    <div class="work-card">
+      <img src="img/4.png" alt="Прихожая с зеркалом">
+      <h3>Прихожая ЗР-01</h3>
+      <p>Встроенная система с зеркалом и мягкой скамьей.</p>
+    </div>
+    <div class="work-card">
+      <img src="img/6.png" alt="Компактная прихожая">
+      <h3>Прихожая КМ-08</h3>
+      <p>Компактное решение с подсветкой и крючками.</p>
+    </div>
+    <div class="work-card">
+      <img src="img/8.png" alt="Угловой шкаф">
+      <h3>Угловой шкаф УГ-15</h3>
+      <p>Максимальное использование пространства комнаты.</p>
+    </div>
+    <div class="work-card">
+      <img src="img/10.png" alt="Прихожая белая">
+      <h3>Прихожая БЛ-22</h3>
+      <p>Светлая прихожая с открытой зоной и шкафом.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contacts">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-contact">
+        <div class="footer-nav-links">
+          <a href="index.html">Главная</a>
+          <a href="requests.html">Заявки</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+        <p>
+          Если у вас возникли вопросы или предложения,<br>
+          позвоните по номеру +7-977-555-90-20<br>
+          или напишите нам stroyservice@gmail.com
+        </p>
+      </div>
+      <div class="footer-right">
+        <div class="social-icons">
+          <a class="social-icon vk" href="#" title="ВКонтакте"><img src="icons/vk.svg" alt="VK"></a>
+          <a class="social-icon tg" href="#" title="Telegram"><img src="icons/tg.svg" alt="Telegram"></a>
+        </div>
+        <a href="requests.html" class="btn-zayvka">Оставить заявку</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <h4>Офис в РФ:</h4>
+        <address>
+          Московская обл, Сергиево-Посадский р-н,<br>
+          Сергиев Посад-6 городок,<br>
+          Корявина ул, дом № 4, кв.56
+        </address>
+      </div>
+      <div>
+        <h4>Контакты:</h4>
+        <p>+7-977-555-90-30<br>stroyservise@gmail.com</p>
+      </div>
+      <div>
+        <h4>График работы</h4>
+        <p>08:00–20:00</p>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <p>Реквизиты по запросу</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
